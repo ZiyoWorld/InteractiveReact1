@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ /* Navbar styles */
+nav{
+    height: 7vh;
+    background-color: #314b40;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.5rem 1.5rem;
+    transition: letter-spacing 0.15s linear;
+}
+a:hover{
+    letter-spacing: 1.5px;
+}
+/* Navbar styles */
+
+/* Hero styles */
+.hero{
+    background: url("https://uz.sbenny.com/images/androidgameimage_stu/xsbenny.com_the_smurfs_and_the_four_seasons.jpg.pagespeed.ic.-OUPqFdptp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 86vh;
+    background-position: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #314b40;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 0.6rem 0;
+}
