@@ -1,6 +1,22 @@
-body{
+*{
     margin: 0;
     padding: 0;
+
+}
+body{
+   font-family: sans-serif;
+
+}
+.header{
+    background-color: #314b40;
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    color: whitesmoke;
+
+}
+.header span{
+    color: rgb(32, 218, 243)
 }
 
  /* Navbar styles */
@@ -47,3 +63,4 @@ footer{
     font-size: 1.5rem;
     padding: 0.6rem 0;
 }
+

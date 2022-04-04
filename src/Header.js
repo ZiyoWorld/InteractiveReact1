@@ -1,5 +1,4 @@
 import React from "react";
-import './Drinks.css'
 
 class Header extends React.Component{
     render(){
